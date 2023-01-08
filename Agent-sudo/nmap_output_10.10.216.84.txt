@@ -1,0 +1,102 @@
+# Nmap 7.93 scan initiated Mon Jan  2 13:58:05 2023 as: nmap -sC -p- -vv --min-rate 1500 -oN nmap_output_10.10.216.84.txt 10.10.216.84
+Increasing send delay for 10.10.216.84 from 0 to 5 due to 61 out of 201 dropped probes since last increase.
+Increasing send delay for 10.10.216.84 from 5 to 10 due to 44 out of 145 dropped probes since last increase.
+Increasing send delay for 10.10.216.84 from 10 to 20 due to 40 out of 131 dropped probes since last increase.
+Increasing send delay for 10.10.216.84 from 40 to 80 due to 56 out of 186 dropped probes since last increase.
+Increasing send delay for 10.10.216.84 from 80 to 160 due to 40 out of 131 dropped probes since last increase.
+Increasing send delay for 10.10.216.84 from 320 to 640 due to 35 out of 115 dropped probes since last increase.
+Warning: 10.10.216.84 giving up on port because retransmission cap hit (10).
+Nmap scan report for 10.10.216.84
+Host is up, received syn-ack (0.20s latency).
+Scanned at 2023-01-02 13:58:05 CST for 111s
+Not shown: 65459 closed tcp ports (conn-refused)
+PORT      STATE    SERVICE        REASON
+21/tcp    open     ftp            syn-ack
+22/tcp    open     ssh            syn-ack
+| ssh-hostkey: 
+|   2048 ef1f5d04d47795066072ecf058f2cc07 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5hdrxDB30IcSGobuBxhwKJ8g+DJcUO5xzoaZP/vJBtWoSf4nWDqaqlJdEF0Vu7Sw7i0R3aHRKGc5mKmjRuhSEtuKKjKdZqzL3xNTI2cItmyKsMgZz+lbMnc3DouIHqlh748nQknD/28+RXREsNtQZtd0VmBZcY1TD0U4XJXPiwleilnsbwWA7pg26cAv9B7CcaqvMgldjSTdkT1QNgrx51g4IFxtMIFGeJDh2oJkfPcX6KDcYo6c9W1l+SCSivAQsJ1dXgA2bLFkG/wPaJaBgCzb8IOZOfxQjnIqBdUNFQPlwshX/nq26BMhNGKMENXJUpvUTshoJ/rFGgZ9Nj31r
+|   256 5e02d19ac4e7430662c19e25848ae7ea (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHdSVnnzMMv6VBLmga/Wpb94C9M2nOXyu36FCwzHtLB4S4lGXa2LzB5jqnAQa0ihI6IDtQUimgvooZCLNl6ob68=
+|   256 2d005cb9fda8c8d880e3924f8b4f18e2 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOL3wRjJ5kmGs/hI4aXEwEndh81Pm/fvo8EvcpDHR5nt
+80/tcp    open     http           syn-ack
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Annoucement
+738/tcp   filtered unknown        no-response
+2620/tcp  filtered lpsrecommender no-response
+3154/tcp  filtered ccmrmi         no-response
+4113/tcp  filtered aipn-reg       no-response
+4881/tcp  filtered socp-t         no-response
+5530/tcp  filtered sdserv         no-response
+5713/tcp  filtered proshareaudio  no-response
+8592/tcp  filtered unknown        no-response
+10926/tcp filtered unknown        no-response
+11668/tcp filtered unknown        no-response
+12031/tcp filtered unknown        no-response
+12114/tcp filtered unknown        no-response
+13553/tcp filtered unknown        no-response
+14295/tcp filtered unknown        no-response
+14671/tcp filtered unknown        no-response
+15373/tcp filtered unknown        no-response
+15839/tcp filtered unknown        no-response
+15963/tcp filtered unknown        no-response
+17089/tcp filtered unknown        no-response
+18651/tcp filtered unknown        no-response
+21005/tcp filtered unknown        no-response
+21684/tcp filtered unknown        no-response
+22441/tcp filtered unknown        no-response
+23501/tcp filtered unknown        no-response
+25173/tcp filtered unknown        no-response
+26991/tcp filtered unknown        no-response
+27474/tcp filtered unknown        no-response
+27740/tcp filtered unknown        no-response
+28471/tcp filtered unknown        no-response
+29101/tcp filtered unknown        no-response
+29725/tcp filtered unknown        no-response
+29742/tcp filtered unknown        no-response
+30506/tcp filtered unknown        no-response
+31151/tcp filtered unknown        no-response
+32086/tcp filtered unknown        no-response
+32511/tcp filtered unknown        no-response
+33739/tcp filtered unknown        no-response
+34437/tcp filtered unknown        no-response
+34483/tcp filtered unknown        no-response
+34879/tcp filtered unknown        no-response
+36592/tcp filtered unknown        no-response
+36868/tcp filtered unknown        no-response
+38124/tcp filtered unknown        no-response
+39038/tcp filtered unknown        no-response
+39149/tcp filtered unknown        no-response
+40575/tcp filtered unknown        no-response
+42072/tcp filtered unknown        no-response
+42090/tcp filtered unknown        no-response
+42124/tcp filtered unknown        no-response
+42355/tcp filtered unknown        no-response
+42435/tcp filtered unknown        no-response
+42650/tcp filtered unknown        no-response
+45300/tcp filtered unknown        no-response
+49602/tcp filtered unknown        no-response
+51300/tcp filtered unknown        no-response
+52074/tcp filtered unknown        no-response
+52288/tcp filtered unknown        no-response
+52486/tcp filtered unknown        no-response
+52903/tcp filtered unknown        no-response
+53584/tcp filtered unknown        no-response
+56240/tcp filtered unknown        no-response
+58627/tcp filtered unknown        no-response
+59552/tcp filtered unknown        no-response
+60685/tcp filtered unknown        no-response
+61068/tcp filtered unknown        no-response
+61700/tcp filtered unknown        no-response
+62359/tcp filtered unknown        no-response
+62737/tcp filtered unknown        no-response
+63861/tcp filtered unknown        no-response
+63892/tcp filtered unknown        no-response
+64773/tcp filtered unknown        no-response
+65021/tcp filtered unknown        no-response
+65446/tcp filtered unknown        no-response
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Jan  2 13:59:56 2023 -- 1 IP address (1 host up) scanned in 111.25 seconds

@@ -1,0 +1,21 @@
+# Dirsearch started Mon Jan  2 14:03:06 2023 as: /usr/bin/dirsearch -u http://10.10.216.84/
+
+403   277B   http://10.10.216.84/.ht_wsr.txt
+403   277B   http://10.10.216.84/.htaccess_orig
+403   277B   http://10.10.216.84/.htaccess_sc
+403   277B   http://10.10.216.84/.htaccess.sample
+403   277B   http://10.10.216.84/.htaccessOLD
+403   277B   http://10.10.216.84/.htaccess_extra
+403   277B   http://10.10.216.84/.htaccessBAK
+403   277B   http://10.10.216.84/.htaccessOLD2
+403   277B   http://10.10.216.84/.htaccess.orig
+403   277B   http://10.10.216.84/.htaccess.bak1
+403   277B   http://10.10.216.84/.htm
+403   277B   http://10.10.216.84/.htpasswd_test
+403   277B   http://10.10.216.84/.htpasswds
+403   277B   http://10.10.216.84/.httr-oauth
+403   277B   http://10.10.216.84/.html
+403   277B   http://10.10.216.84/.htaccess.save
+403   277B   http://10.10.216.84/.php
+403   277B   http://10.10.216.84/server-status
+403   277B   http://10.10.216.84/server-status/
