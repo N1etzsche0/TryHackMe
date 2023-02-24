@@ -1,0 +1,37 @@
+# Nmap 7.93 scan initiated Sun Jan  8 11:31:29 2023 as: nmap -O -sV -p- -vv --min-rate 1500 -oN nmap_output_10.200.85.200.txt 10.200.85.200
+Nmap scan report for 10.200.85.200
+Host is up, received echo-reply ttl 63 (0.20s latency).
+Scanned at 2023-01-08 11:31:30 CST for 137s
+Not shown: 65437 filtered tcp ports (no-response), 93 filtered tcp ports (admin-prohibited)
+PORT      STATE  SERVICE    REASON         VERSION
+22/tcp    open   ssh        syn-ack ttl 63 OpenSSH 8.0 (protocol 2.0)
+80/tcp    open   http       syn-ack ttl 63 Apache httpd 2.4.37 ((centos) OpenSSL/1.1.1c)
+443/tcp   open   ssl/http   syn-ack ttl 63 Apache httpd 2.4.37 ((centos) OpenSSL/1.1.1c)
+9090/tcp  closed zeus-admin reset ttl 63
+10000/tcp open   http       syn-ack ttl 63 MiniServ 1.890 (Webmin httpd)
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+Aggressive OS guesses: HP P2000 G3 NAS device (91%), Linux 2.6.32 (90%), Linux 2.6.32 - 3.1 (90%), Ubiquiti AirMax NanoStation WAP (Linux 2.6.32) (90%), Linux 3.7 (90%), Linux 5.4 (90%), Linux 2.6.32 - 3.13 (89%), Linux 3.0 - 3.2 (89%), Infomir MAG-250 set-top box (89%), Linux 5.1 (89%)
+No exact OS matches for host (test conditions non-ideal).
+TCP/IP fingerprint:
+SCAN(V=7.93%E=4%D=1/8%OT=22%CT=9090%CU=%PV=Y%G=N%TM=63BA399B%P=x86_64-pc-linux-gnu)
+SEQ(SP=100%GCD=1%ISR=104%TI=Z%CI=Z%II=I%TS=A)
+OPS(O1=M506ST11NW7%O2=M506ST11NW7%O3=M506NNT11NW7%O4=M506ST11NW7%O5=M506ST11NW7%O6=M506ST11)
+WIN(W1=68DF%W2=68DF%W3=68DF%W4=68DF%W5=68DF%W6=68DF)
+ECN(R=Y%DF=Y%TG=40%W=6903%O=M506NNSNW7%CC=Y%Q=)
+T1(R=Y%DF=Y%TG=40%S=O%A=S+%F=AS%RD=0%Q=)
+T2(R=N)
+T3(R=N)
+T4(R=Y%DF=Y%TG=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)
+T5(R=Y%DF=Y%TG=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=Y%DFI=N%TG=40%CD=S)
+
+Uptime guess: 2.619 days (since Thu Jan  5 20:42:19 2023)
+TCP Sequence Prediction: Difficulty=256 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Jan  8 11:33:47 2023 -- 1 IP address (1 host up) scanned in 137.90 seconds
